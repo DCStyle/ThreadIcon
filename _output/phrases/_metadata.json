@@ -1,0 +1,80 @@
+{
+    "after_thread_title.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "dca79ba32a12e5f2e2a5ec3bde26cc1b"
+    },
+    "before_thread_title.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d25e726647b905726c4ddddbeb39e515"
+    },
+    "icon_display_position.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "771c5de006cd9e24a4d754b5a077fbd9"
+    },
+    "option.dcThreadIcon_display_position.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "771c5de006cd9e24a4d754b5a077fbd9"
+    },
+    "option.dcThreadIcon_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e337b0fa18fd8ca96e8b6b16243f71d1"
+    },
+    "option.dcThreadIcon_forums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "216c63c94551f2cfe5e92b3bf1cd8144"
+    },
+    "option_explain.dcThreadIcon_display_position.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.dcThreadIcon_enable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.dcThreadIcon_forums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e79db653c1b7a7a59d5e38de47ff41a0"
+    },
+    "option_group.dcThreadIcon.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "911b5a213649f0760a98efa5da376c58"
+    },
+    "option_group_description.dcThreadIcon.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "permission.forum_canUseThreadIcon.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2f6d30198378b1257c3d0bda0241ead2"
+    },
+    "thread_icon_picker.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3f7b4564e5345e05dda5651e04c212c3"
+    }
+}

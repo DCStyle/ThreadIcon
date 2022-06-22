@@ -1,0 +1,20 @@
+{
+    "XF-Entity-Thread_DC-ThreadIcon-XF-Entity-Thread.json": {
+        "hash": "8fec47a63470b66115c7abb51093ca31"
+    },
+    "XF-Entity-User_DC-ThreadIcon-XF-Entity-User.json": {
+        "hash": "e9971aac6aa3d9b955e1eede0dbc02bf"
+    },
+    "XF-Pub-Controller-Forum_DC-ThreadIcon-XF-Pub-Controller-Forum.json": {
+        "hash": "7f257c883a6e22a382b199daf7d9d56d"
+    },
+    "XF-Pub-Controller-Thread_DC-ThreadIcon-XF-Pub-Controller-Thread.json": {
+        "hash": "78df58b979f90cd2c8117370e393eaf7"
+    },
+    "XF-Service-Thread-Creator_DC-ThreadIcon-XF-Service-Thread-Creator.json": {
+        "hash": "ce263e794dc211914dafdb33e4f5662a"
+    },
+    "XF-Service-Thread-Editor_DC-ThreadIcon-XF-Service-Thread-Editor.json": {
+        "hash": "f44b1c5662f1dc400927199f2bced21b"
+    }
+}

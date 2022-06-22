@@ -1,0 +1,13 @@
+<xf:if is="$xf.visitor.canChangeThreadIconPosition($forum.node_id)">
+	<xf:radiorow name="thread_icon_position" 
+				 label="{{ phrase('icon_display_position') }}"
+				 value="{$thread.Icon.position}">
+		
+		<xf:option value="before" 
+				   label="{{ phrase('before_thread_title') }}" 
+				   selected="{{ !$thread.Icon || $thread.Icon.position == 'before' }}" />
+		
+		<xf:option value="after" 
+				   label="{{ phrase('after_thread_title') }}" />
+	</xf:radiorow>
+</xf:if>

@@ -1,0 +1,9 @@
+{
+    "template": "thread_edit",
+    "description": "Appends icon position selector (thread edit)",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:macro template=\"helper_thread_options\"",
+    "replace": "<xf:include template=\"dcThreadIcon_icon_position_selector\" />\n\n$0"
+}

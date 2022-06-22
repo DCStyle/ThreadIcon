@@ -1,0 +1,17 @@
+{
+    "edit_format": "checkbox",
+    "edit_format_params": "thread_view=Thread view\nforum_view=Forum view & Widget threads\nsearch=Search results",
+    "data_type": "array",
+    "sub_options": [
+        "thread_view",
+        "forum_view",
+        "search"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "{\"thread_view\":1,\"forum_view\":1,\"search\":1}",
+    "relations": {
+        "dcThreadIcon": 3
+    }
+}

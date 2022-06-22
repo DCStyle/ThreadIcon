@@ -1,0 +1,13 @@
+{
+    "edit_format": "select",
+    "edit_format_params": "before=Before thread title\nafter=After thread title\ndepends=Depends on user selection",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "before",
+    "relations": {
+        "dcThreadIcon": 2
+    }
+}

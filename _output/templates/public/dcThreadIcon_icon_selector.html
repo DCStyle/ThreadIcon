@@ -1,0 +1,13 @@
+<xf:if is="$xf.visitor.canUseThreadIcon($forum.node_id)">
+	<xf:css src="dcThreadIcon.less" />
+	<xf:js src="DC/ThreadIcon/picker.js" />
+	
+	<xf:textbox name="thread_icon" 
+				placeholder="{{ phrase('icon') }} " 
+				data-xf-init="tooltip"
+				data-xf-click="thread-icon-picker"
+				title="{{ phrase('thread_icon_picker') }}"
+				class="js-thread-icon-picker input--thread-icon-picker"
+				readonly="readonly"
+				value="{{ $thread.Icon ? 'fa fa-' . $thread.Icon.icon : '' }}"/>
+</xf:if>

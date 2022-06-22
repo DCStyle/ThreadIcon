@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Insert thread icon in thread_list_macros",
+    "execution_order": 20,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{$thread.title}",
+    "replace": "<xf:if is=\"$xf.options.dcThreadIcon_enable.forum_view\">\n\t{{ thread_title_icon($thread) }}\n<xf:else/>\n\t$0\n</xf:if>"
+}

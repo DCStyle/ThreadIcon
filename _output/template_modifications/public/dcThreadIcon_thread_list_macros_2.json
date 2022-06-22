@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Append thread icon selector (quick post)",
+    "execution_order": 20,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:qt_title_after]-->",
+    "replace": "<xf:include template=\"dcThreadIcon_icon_selector\" />\n\n$0"
+}

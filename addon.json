@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "D.C Style - Thread Icon",
+    "description": "Add posibility to add icon for threads based on Font Awesome Icons.",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "D.C Style",
+    "dev_url": "https://dcstyle.info",
+    "faq_url": "https://dcstyle.info",
+    "support_url": "https://dcstyle.info",
+    "extra_urls": [],
+    "require": [],
+    "icon": "logo.png"
+}

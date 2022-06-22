@@ -1,0 +1,124 @@
+.js-prefixContainer, .js-titleInput
+{
+	display: inline-block;
+    width: ~"calc(100% - 230px)";
+	
+	@media (max-width: @xf-responsiveMedium)
+	{
+		width: ~"calc(100% - 130px)";
+	}
+	
+	@media (max-width: @xf-responsiveNarrow)
+	{
+		width: 100%;
+	}
+	
+	.js-titleInput
+	{
+		width: 100%;
+	}
+}
+
+.input--thread-icon-picker
+{
+	width: 220px;
+	height: 48px;
+    display: inline-block;
+	float: right;
+	cursor: pointer;
+	
+	@media (max-width: @xf-responsiveMedium)
+	{
+		width: 120px;
+	}
+	
+	@media (max-width: @xf-responsiveNarrow)
+	{
+		width: 100%;
+		margin-top: 10px;
+		float: none;
+	}
+}
+
+.fa-browser-container 
+{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	padding: 1rem;
+	background: @xf-overlayMaskColor;
+	z-index: 99999;
+	
+	> .window 
+	{
+		display: flex;
+		padding: 1rem;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		position: relative;
+		max-width: 800px;
+		width: 100%;
+		height: 100%;
+		background: @xf-contentBg;
+		z-index: 1;
+		overflow: auto;
+	}
+	
+	> .close 
+	{
+		font-size: 36px;
+		color: @xf-contentBg;
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		z-index: 2;
+		cursor: pointer;
+		
+		@media (max-width: @xf-responsiveMedium)
+		{
+			top: .5rem;
+			right: .5rem;
+		}
+	}
+	
+	.icon 
+	{
+		flex: 0 0 10%;
+		font-size: 36px;
+		text-align: center;
+		margin-bottom: 1rem;
+		cursor: pointer;
+		color: @xf-textColor;
+		
+		@media (max-width: @xf-responsiveMedium)
+		{
+			flex: 0 0 20%;
+			font-size: 24px;
+		}
+		
+		&:hover 
+		{
+			color: @xf-textColorMuted;
+		}
+		
+		&.js-thread-icon-clear
+		{
+			color: @xf-errorColor;
+		}
+	}
+}
+
+[data-template^="forum_view"],
+[data-xf-init^="thread-edit"]
+{
+	.input--thread-icon-picker
+	{
+		height: auto;
+	}
+}

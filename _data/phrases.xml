@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="after_thread_title" version_id="1000070" version_string="1.0.0"><![CDATA[After thread title]]></phrase>
+  <phrase title="before_thread_title" version_id="1000070" version_string="1.0.0"><![CDATA[Before thread title]]></phrase>
+  <phrase title="icon_display_position" version_id="1000070" version_string="1.0.0"><![CDATA[Icon display position]]></phrase>
+  <phrase title="option.dcThreadIcon_display_position" version_id="1000070" version_string="1.0.0"><![CDATA[Icon display position]]></phrase>
+  <phrase title="option.dcThreadIcon_enable" version_id="1000070" version_string="1.0.0"><![CDATA[Display thread icon in]]></phrase>
+  <phrase title="option.dcThreadIcon_forums" version_id="1000070" version_string="1.0.0"><![CDATA[Applicable forums]]></phrase>
+  <phrase title="option_explain.dcThreadIcon_display_position" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.dcThreadIcon_enable" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.dcThreadIcon_forums" version_id="1000070" version_string="1.0.0"><![CDATA[Only threads in these forums can have icon]]></phrase>
+  <phrase title="option_group.dcThreadIcon" version_id="1000070" version_string="1.0.0"><![CDATA[D.C Style - Thread Icon]]></phrase>
+  <phrase title="option_group_description.dcThreadIcon" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="permission.forum_canUseThreadIcon" version_id="1000070" version_string="1.0.0"><![CDATA[Can use thread icon]]></phrase>
+  <phrase title="thread_icon_picker" version_id="1000070" version_string="1.0.0"><![CDATA[Thread icon picker]]></phrase>
+</phrases>

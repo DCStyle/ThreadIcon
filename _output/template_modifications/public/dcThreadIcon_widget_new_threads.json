@@ -1,0 +1,9 @@
+{
+    "template": "widget_new_threads",
+    "description": "Insert thread icon in widget_new_threads",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{$thread.title}",
+    "replace": "<xf:if is=\"$xf.options.dcThreadIcon_enable.forum_view\">\n\t{{ thread_title_icon($thread) }}\n<xf:else/>\n\t$0\n</xf:if>"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "thread_edit",
+    "description": "Append thread icon selector (thread edit)",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:prefixinputrow",
+    "replace": "<xf:set var=\"$titleFinalHtml\">\n\t<xf:include template=\"dcThreadIcon_icon_selector\" />\n</xf:set>\n\n$0\nfinalhtml=\"{$titleFinalHtml}\""
+}

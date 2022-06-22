@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Insert thread icon in thread_view",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{{ prefix('thread', $thread) }}{$thread.title}",
+    "replace": "<xf:if is=\"$xf.options.dcThreadIcon_enable.thread_view\">\n\t{{ prefix('thread', $thread) }}{{ thread_title_icon($thread) }}\n<xf:else/>\n\t$0\n</xf:if>"
+}

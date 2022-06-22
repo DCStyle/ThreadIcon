@@ -1,0 +1,17 @@
+{
+    "public/dcThreadIcon.less": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e3b7a9e7869e67481e4da9c129899c65"
+    },
+    "public/dcThreadIcon_icon_position_selector.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4e26b6ea4256af45297695255bec79c3"
+    },
+    "public/dcThreadIcon_icon_selector.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d4753cc064aeca1ff908d99970593145"
+    }
+}
